@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #abd863;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Media Query para pantallas más grandes (mínimo 768px) */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 60%;
+        text-align: left;
+        /* Alinea el contenido al lado izquierdo en pantallas más grandes */
+    }
+}
